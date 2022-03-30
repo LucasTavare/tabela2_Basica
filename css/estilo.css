@@ -8,9 +8,10 @@ body{
 }
 
 h2{
-    background-color:darkturquoise;
+    background-color:#C20000;
     color: #fff;
     padding: 13px;
+    text-align: center;
 }
 
 /* Estilo da Tabela */
@@ -31,4 +32,25 @@ th,td{
     padding: 10px;
 }
 
+th{
+    background-color: #007315;
+    color: #FFFFFF;
+    height: 50px;
+}
+
+
+/* Tabela zebrada */
+tr:nth-child(even){
+    background-color: #FFE400;
+}
+
+/* muda a cor da linha ao passar o mouse */
+tr:hover{
+    background-color: #03bb24;
+}
+
 /* Final estilo da tabela */
+
+caption{
+    caption-side: bottom;
+}
