@@ -1,0 +1,34 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+h2{
+    background-color:darkturquoise;
+    color: #fff;
+    padding: 13px;
+}
+
+/* Estilo da Tabela */
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 4px solid black !important;
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: left;
+}
+
+th,td{
+    padding: 10px;
+}
+
+/* Final estilo da tabela */
